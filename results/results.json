@@ -1,0 +1,154 @@
+{
+  "E0": {
+    "clean": {
+      "mAP": 0.1187448986840131,
+      "mAP50": 0.22727296918050596,
+      "mAP75": 0.10319195182842898,
+      "recall": 0.7459795321637427,
+      "precision_bestF1": 0.2218313084232506,
+      "recall_bestF1": 0.6008771929824561,
+      "f1_best": 0.32403548448384545,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\weights\\swdd-nano-ViT.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\datasets\\COCO\\SWDD\\annotations\\instances_test2017.json"
+    },
+    "shift": {
+      "mAP": 0.0014738090263893366,
+      "mAP50": 0.007991688406409844,
+      "mAP75": 6.126570335840845e-05,
+      "recall": 0.2600511695906433,
+      "precision_bestF1": 0.006325658787845294,
+      "recall_bestF1": 0.1339546783625731,
+      "f1_best": 0.012080831933681634,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\weights\\swdd-nano-ViT.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\data\\SWDD_domain\\annotations\\instances_test_shift.json"
+    },
+    "pgd": {
+      "mAP": 0.01178372754872585,
+      "mAP50": 0.04918822392387401,
+      "mAP75": 0.003170920126113405,
+      "recall": 0.6098318713450293,
+      "precision_bestF1": 0.04563802307227386,
+      "recall_bestF1": 0.44389619883040937,
+      "f1_best": 0.08276661388524612,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\weights\\swdd-nano-ViT.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\outputs\\pgd_test_E0.json"
+    }
+  },
+  "E1_kd": {
+    "clean": {
+      "mAP": 0.143127793610558,
+      "mAP50": 0.2544449697505486,
+      "mAP75": 0.13811513292192212,
+      "recall": 0.8605628654970761,
+      "precision_bestF1": 0.23574348033983775,
+      "recall_bestF1": 0.6966374269005848,
+      "f1_best": 0.3522760500075011,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e1_kd\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\datasets\\COCO\\SWDD\\annotations\\instances_test2017.json"
+    },
+    "shift": {
+      "mAP": 0.0018901054093377193,
+      "mAP50": 0.01213861314339984,
+      "mAP75": 0.00029120559114735004,
+      "recall": 0.03819444444444445,
+      "precision_bestF1": 0.011853506098663954,
+      "recall_bestF1": 0.034722222222222224,
+      "f1_best": 0.0176735861234277,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e1_kd\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\data\\SWDD_domain\\annotations\\instances_test_shift.json"
+    },
+    "pgd": {
+      "mAP": 0.01737002201195019,
+      "mAP50": 0.05583319806309391,
+      "mAP75": 0.00514520036339324,
+      "recall": 0.7150950292397661,
+      "precision_bestF1": 0.04620696484074062,
+      "recall_bestF1": 0.4554093567251462,
+      "f1_best": 0.08390111417688048,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e1_kd\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\outputs\\pgd_test_E1_kd.json"
+    }
+  },
+  "E2_da": {
+    "clean": {
+      "mAP": 0.07016994960534198,
+      "mAP50": 0.15670364207257823,
+      "mAP75": 0.054526686110457606,
+      "recall": 0.8591008771929824,
+      "precision_bestF1": 0.1535194632151385,
+      "recall_bestF1": 0.7748538011695907,
+      "f1_best": 0.2562657590201106,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e2_da\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\datasets\\COCO\\SWDD\\annotations\\instances_test2017.json"
+    },
+    "shift": {
+      "mAP": 0.004586396810984646,
+      "mAP50": 0.018366118645937627,
+      "mAP75": 0.000622151628975447,
+      "recall": 0.3651315789473684,
+      "precision_bestF1": 0.004626080887658659,
+      "recall_bestF1": 0.06816520467836257,
+      "f1_best": 0.008664162148363333,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e2_da\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\data\\SWDD_domain\\annotations\\instances_test_shift.json"
+    },
+    "pgd": {
+      "mAP": 0.004281333048842456,
+      "mAP50": 0.023938693694766307,
+      "mAP75": 0.0004911956111648322,
+      "recall": 0.5656067251461988,
+      "precision_bestF1": 0.021467035581388252,
+      "recall_bestF1": 0.4022295321637427,
+      "f1_best": 0.04075877095156593,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e2_da\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\outputs\\pgd_test_E2_da.json"
+    }
+  },
+  "E3_final": {
+    "clean": {
+      "mAP": 0.15374460747871724,
+      "mAP50": 0.2600036312138538,
+      "mAP75": 0.14299159794905858,
+      "recall": 0.8583698830409356,
+      "precision_bestF1": 0.21822944775128827,
+      "recall_bestF1": 0.6154970760233918,
+      "f1_best": 0.32221497856392584,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e3_final\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\datasets\\COCO\\SWDD\\annotations\\instances_test2017.json"
+    },
+    "shift": {
+      "mAP": 0.003862993654442135,
+      "mAP50": 0.010371799755132666,
+      "mAP75": 0.0037128712871287127,
+      "recall": 0.04806286549707603,
+      "precision_bestF1": 0.006806930693069307,
+      "recall_bestF1": 0.010416666666666666,
+      "f1_best": 0.008233532934131736,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e3_final\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\data\\SWDD_domain\\annotations\\instances_test_shift.json"
+    },
+    "pgd": {
+      "mAP": 0.0636186932053517,
+      "mAP50": 0.1427636603908643,
+      "mAP75": 0.050572503532832096,
+      "recall": 0.8176169590643274,
+      "precision_bestF1": 0.1128095850294936,
+      "recall_bestF1": 0.5190058479532164,
+      "f1_best": 0.18533524595650394,
+      "conf_best": 0.05,
+      "ckpt": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\KD-YOLOX-ViT-main\\YOLOX_outputs\\e3_final\\best_ckpt.pth",
+      "ann": "D:\\Documents\\deepseek-harness\\default-workspace\\repro\\outputs\\pgd_test_E3_final.json"
+    }
+  }
+}

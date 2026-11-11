@@ -1,0 +1,19 @@
+# 本项目在 Python 3.12 下验证（Windows + RTX 4060 8GB）
+# torch/torchvision 需要 CUDA 版，建议先按官方 index 安装：
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+opencv-python==4.10.0.84
+loguru
+tqdm
+thop
+ninja
+tabulate
+psutil
+tensorboard
+pycocotools
+onnx
+scipy
+matplotlib

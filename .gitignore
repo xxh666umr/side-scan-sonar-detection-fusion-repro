@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据与权重（体积大，不分发）
+datasets/
+data/
+weights/
+*.pth
+*.pth.part
+*.zip
+
+# 训练输出
+YOLOX_outputs/
+outputs/
+KD-FPN-Images/
+
+# 日志与临时文件
+*.log
+tmp/
+tmp2/
+tmp3/
+torch_ext/
+.dsh-*/
+*.tmp
+
+# 系统
+.DS_Store
+Thumbs.db
