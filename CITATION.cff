@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite this repository."
+title: "Fused reproduction of KD-YOLOX-ViT + DCBD + ROSAR for side-scan sonar object detection"
+abstract: >-
+  A reproduction project that fuses three open-source side-scan sonar object
+  detection methods (KD-YOLOX-ViT, DCBD and ROSAR) into a single detector and
+  evaluates them with a unified protocol, including ablation, robustness and
+  video-frame alignment experiments on the SWDD dataset.
+authors:
+  - family-names: "Xia"
+    given-names: "Xinhao"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/xxh666umr/side-scan-sonar-detection-fusion-repro"
+url: "https://github.com/xxh666umr/side-scan-sonar-detection-fusion-repro"
+keywords:
+  - side-scan sonar
+  - object detection
+  - YOLOX
+  - knowledge distillation
+  - domain adaptation
+  - adversarial training
+date-released: "2026-11-11"
